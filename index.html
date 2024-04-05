@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Afique</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/5493a6eba7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <nav>
+        <div class="first-container" id="brand-title">
+            <h1><a href="#">Hossain</a></h1>
+        </div>
+        <div class="first-container" id="search-box">
+            <form method="get">
+                <input type="search" class="text">
+                <button type="submit" class="search-button">Search</button>
+            </form>
+        </div>
+        <label for="check" class="bar">
+            <span class="fa fa-bars" id="bars"></span>
+            <span class="fa fa-times" id="times"></span>
+        </label>
+    </nav>
+
+    <div id="menu-section">
+        <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#contract-me">Feedback</a></li>
+        </ul>
+    </div>
+
+    <div class="banner">
+        <img src="images/afique.jpg" alt="afique">
+        <div class="about-me">
+            <h2>About me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+    </div>
+
+    <div class="two-col">
+        <div class="blogs" id="blogs">
+            <h2>Blogs</h2>
+            <h4>Day 1</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, corporis?</p>
+            <h4>Day 2</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, perferendis explicabo? Perspiciatis modi culpa ipsam unde ratione minima voluptatibus inventore.</p>
+            <h4>Day 3</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rem possimus voluptates consectetur odio. Accusantium.</p>
+        </div>
+        <div class="contract-me" id="contract-me">
+            <form action="mailto:afiquehossain84@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Your Name</label><br>
+                <input type="text" name="name" id="name" placeholder="Enter your name"><br>
+                <label for="feedback">Your Feedback</label><br>
+                <textarea name="feedback" id="feedback" cols="60%" rows="10" placeholder="Your feedback"></textarea><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="links">
+            <ul>
+                <li><a href="https://www.facebook.com/afique.hossain.J/"  target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://github.com/Afiqu3" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+        &copy; 2024 Md. Afique Hossain
+    </footer>
+</body>
+</html>
